@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div id="terminal">
+        <span class="title">bitcoin miner</span><br>
+        <button onclick="mineBitcoin()">start</button>
+        <button id="stopBitcoin">stop</button>
+        <br><br>
+        <span>total money earned: $</span>
+        <span id="money"></span><br><hr>
+    </div>
+    <div id="dialog"></div>
+    <div class="center">
+        <div id="shop">
+            <div class="right">
+                <button onclick="off('shop')" class="shopBtn">X</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
